@@ -6,17 +6,19 @@ import Home from "./pages/home/Home";
 import News from "./pages/news/News";
 import Contact from "./pages/contact/Contact";
 import MainNav from "./components/MainNav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <MainNav />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </div>
+      <Footer />
+    </>
   );
 }
 
