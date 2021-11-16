@@ -45,4 +45,4 @@ function ImageCarousel() {
   );
 }
 
-export default Carousel;
+export default ImageCarousel;

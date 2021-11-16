@@ -1,6 +1,6 @@
 import React from "react";
-import Tab from "react-bootstrap";
 import Tabs from "react-bootstrap";
+import Tab from "react-bootstrap";
 
 function HomeTabs() {
   return (
@@ -9,9 +9,24 @@ function HomeTabs() {
       id="uncontrolled-tab-example"
       className="mb-3"
     >
-      <Tab eventKey="home" title="Home"></Tab>
-      <Tab eventKey="profile" title="Profile"></Tab>
-      <Tab eventKey="contact" title="Contact" disabled></Tab>
+      <Tab eventKey="home" title="First">
+        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+        ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+        condimentum mattis rhoncus.{" "}
+      </Tab>
+      <Tab eventKey="profile" title="Second">
+        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+        ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+        condimentum mattis rhoncus.{" "}
+      </Tab>
+      <Tab eventKey="contact" title="Third">
+        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+        ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+        condimentum mattis rhoncus.{" "}
+      </Tab>
     </Tabs>
   );
 }
