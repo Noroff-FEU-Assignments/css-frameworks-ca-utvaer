@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
-import logo from "./logo.svg";
+
 import "./App.css";
 import Home from "./pages/home/Home";
 import News from "./pages/news/News";
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
