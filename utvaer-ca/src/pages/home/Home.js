@@ -1,10 +1,13 @@
 import React from "react";
-import Carousel from "./components/Carousel";
+import ImageCarousel from "../../components/ImageCarousel";
+import Tabs from "../../components/Tabs";
 
 function Home() {
   return (
     <div>
-      <Carousel />
+      <h1>Hello</h1>
+      <ImageCarousel />
+      <Tabs />
     </div>
   );
 }
