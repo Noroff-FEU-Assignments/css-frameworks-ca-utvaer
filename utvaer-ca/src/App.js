@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/home/Home";
 import News from "./pages/news/News";
+import Contact from "./pages/contact/Contact";
 import MainNav from "./components/MainNav";
 
 function App() {
