@@ -8,8 +8,11 @@ function Footer() {
     <footer>
       <Container>
         <Row>
-          <Col>ICONS</Col>
-          <Col>hello@email.com</Col>
+          <Col sm={12} md={4}>
+            <i class="fab fa-vimeo-v"></i>
+            <i class="fab fa-youtube"></i>
+          </Col>
+          <Col>hello@yay.com</Col>
           <Col>Copyright {new Date().getFullYear()}</Col>
         </Row>
       </Container>
