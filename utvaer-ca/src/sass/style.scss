@@ -58,3 +58,7 @@ $carousel-indicator-height: 30px;
 $carousel-indicator-active-bg: $color-primary;
 
 @import "~bootstrap/scss/bootstrap";
+
+@import "./partials/contactForm";
+@import "./partials/tabs";
+@import "./partials/typography";

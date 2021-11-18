@@ -41,9 +41,11 @@ function ContactForm() {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="d-grid gap-2">
+          <Button variant="submit" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
     </>
   );

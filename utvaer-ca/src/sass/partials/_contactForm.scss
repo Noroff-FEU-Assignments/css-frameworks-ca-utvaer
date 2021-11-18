@@ -1,0 +1,8 @@
+.btn-submit {
+  background-color: $color-secondary;
+  color: #fff;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}

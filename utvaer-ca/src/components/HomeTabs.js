@@ -10,19 +10,19 @@ function HomeTabs() {
       className="mb-3"
     >
       <Tab eventKey="first" title="First">
-        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        Hello Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
         venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
         ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
         condimentum mattis rhoncus.{" "}
       </Tab>
       <Tab eventKey="second" title="Second">
-        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        Hi Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
         venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
         ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
         condimentum mattis rhoncus.{" "}
       </Tab>
       <Tab eventKey="third" title="Third">
-        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+        You ! Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
         venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
         ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
         condimentum mattis rhoncus.{" "}
