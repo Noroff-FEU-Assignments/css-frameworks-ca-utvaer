@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <Container>
         <Row>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={4} className="footer__item">
             <i class="fab fa-vimeo-v"></i>
             <i class="fab fa-youtube"></i>
           </Col>
