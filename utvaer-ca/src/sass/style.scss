@@ -1,0 +1,60 @@
+// custom
+
+$color-primary: #e92569;
+$color-secondary: #767676;
+$color-navbg: #efefef;
+$color-titles: #0a0a0a;
+$color-border: #707070;
+
+// bootstrap
+
+// colors
+
+$theme-colors: (
+  "primary": $color-primary,
+  "light": $color-navbg,
+);
+
+// Navbar
+
+$navbar-light-brand-color: $color-primary;
+$link-color: $color-titles;
+$link-decoration: none;
+
+$body-bg: pink;
+$body-color: $color-secondary;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $color-primary;
+
+$input-bg: #fff;
+$input-border-color: #fff;
+$input-placeholder-color: $color-secondary;
+$form-check-input-bg: $color-primary;
+$form-check-input-border: 1px solid $color-primary;
+$form-check-input-border-radius: 4px;
+
+//pagination
+$pagination-color: $color-primary;
+$pagination-border-color: $color-primary;
+$pagination-active-bg: $color-primary;
+
+//cards
+$card-border-radius: 10px;
+$card-border-color: $color-border;
+
+//accordion
+
+$accordion-border-radius: 10px;
+$accordion-button-color: $color-primary;
+$accordion-button-active-color: $color-primary;
+$accordion-button-bg: #fff;
+$accordion-button-active-bg: #fff;
+
+// carousel
+
+$carousel-indicator-height: 30px;
+$carousel-indicator-active-bg: $color-primary;
+
+@import "~bootstrap/scss/bootstrap";

@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import "./App.css";
+import "./sass/style.scss";
 import Home from "./pages/home/Home";
 import News from "./pages/news/News";
 import Contact from "./pages/contact/Contact";
-import MainNav from "./components/MainNav";
-import Footer from "./components/Footer";
+import MainNav from "./components/layout/MainNav";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
