@@ -1,0 +1,23 @@
+.navbar-nav .navbar-nav__item {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+}
+.navbar-nav .active {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.navbar__search {
+  margin-right: 0 !important;
+  border-radius: 4px 0 0 4px;
+}
+.btn-search {
+  color: #fff;
+  background-color: $color-primary;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}

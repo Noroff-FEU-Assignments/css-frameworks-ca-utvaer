@@ -21,12 +21,16 @@ $navbar-light-brand-color: $color-primary;
 $link-color: $color-titles;
 $link-decoration: none;
 
+//body & typography
+
 $body-bg: pink;
 $body-color: $color-secondary;
 
 $font-family-base: "Lato", sans-serif;
 $headings-font-family: "Playfair Display", serif;
 $headings-color: $color-primary;
+
+// forms
 
 $input-bg: #fff;
 $input-border-color: #fff;
@@ -63,3 +67,7 @@ $carousel-indicator-active-bg: $color-primary;
 @import "./partials/tabs";
 @import "./partials/typography";
 @import "./partials/footer";
+@import "./partials/navbar";
+@import "./partials/imageCarousel";
+@import "./partials/layout";
+@import "./partials/cards";

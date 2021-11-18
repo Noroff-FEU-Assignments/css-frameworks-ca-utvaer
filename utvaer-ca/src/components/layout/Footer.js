@@ -9,11 +9,15 @@ function Footer() {
       <Container>
         <Row>
           <Col sm={12} md={4} className="footer__item">
-            <i class="fab fa-vimeo-v"></i>
-            <i class="fab fa-youtube"></i>
+            <div className="icon">
+              <i class="fab fa-vimeo-v"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
           </Col>
-          <Col>hello@yay.com</Col>
-          <Col>Copyright {new Date().getFullYear()}</Col>
+          <Col className="footer__item">hello@yay.com</Col>
+          <Col className="footer__item">
+            Copyright {new Date().getFullYear()}
+          </Col>
         </Row>
       </Container>
     </footer>

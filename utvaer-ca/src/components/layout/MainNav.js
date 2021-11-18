@@ -15,19 +15,25 @@ function MainNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/news">News</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/" className="navbar-nav__item">
+              Home
+            </NavLink>
+            <NavLink to="/news" className="navbar-nav__item">
+              News
+            </NavLink>
+            <NavLink to="/contact" className="navbar-nav__item">
+              Contact
+            </NavLink>
           </Nav>
 
           <Form className="d-flex">
             <FormControl
               type="search"
               placeholder="Search"
-              className="me-2"
+              className="me-2 navbar__search"
               aria-label="Search"
             />
-            <Button variant="outline-success">Go</Button>
+            <Button variant="search">Go</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

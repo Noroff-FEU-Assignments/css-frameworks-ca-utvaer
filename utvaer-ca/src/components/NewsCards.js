@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
@@ -15,15 +14,15 @@ import news8 from "../images/news/news8.jpeg";
 
 function NewsCards() {
   return (
-    <Container>
-      <Row>
+    <>
+      <Row className="cards">
         <Col sm={12} md={6} lg={3}>
           <Card>
             <Card.Img variant="top" src={news1} />
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">MORE</Button>
+              <Button variant="more">MORE</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -33,7 +32,7 @@ function NewsCards() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">MORE</Button>
+              <Button variant="more">MORE</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -43,7 +42,7 @@ function NewsCards() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">MORE</Button>
+              <Button variant="more">MORE</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -53,13 +52,13 @@ function NewsCards() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">MORE</Button>
+              <Button variant="more">MORE</Button>
             </Card.Body>
           </Card>
         </Col>
       </Row>
       <div className="d-none d-md-block">
-        <Row>
+        <Row className="cards">
           <Col md={6} lg={3}>
             <Card>
               <Card.Img variant="top" src={news5} />
@@ -68,7 +67,7 @@ function NewsCards() {
                 <Card.Text>
                   Nunc malesuada eget est fringilla dapibus.
                 </Card.Text>
-                <Button variant="primary">MORE</Button>
+                <Button variant="more">MORE</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -80,7 +79,7 @@ function NewsCards() {
                 <Card.Text>
                   Nunc malesuada eget est fringilla dapibus.
                 </Card.Text>
-                <Button variant="primary">MORE</Button>
+                <Button variant="more">MORE</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -92,7 +91,7 @@ function NewsCards() {
                 <Card.Text>
                   Nunc malesuada eget est fringilla dapibus.
                 </Card.Text>
-                <Button variant="primary">MORE</Button>
+                <Button variant="more">MORE</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -104,13 +103,13 @@ function NewsCards() {
                 <Card.Text>
                   Nunc malesuada eget est fringilla dapibus.
                 </Card.Text>
-                <Button variant="primary">MORE</Button>
+                <Button variant="more">MORE</Button>
               </Card.Body>
             </Card>
           </Col>
         </Row>
       </div>
-    </Container>
+    </>
   );
 }
 
