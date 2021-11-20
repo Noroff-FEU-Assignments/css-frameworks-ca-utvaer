@@ -23,7 +23,6 @@ $link-decoration: none;
 
 //body & typography
 
-$body-bg: pink;
 $body-color: $color-secondary;
 
 $font-family-base: "Lato", sans-serif;
@@ -46,7 +45,7 @@ $pagination-active-bg: $color-primary;
 
 //cards
 $card-border-radius: 10px;
-$card-border-color: $color-border;
+//$card-border-color: $color-border;
 
 //accordion
 
@@ -71,3 +70,6 @@ $carousel-indicator-active-bg: $color-primary;
 @import "./partials/imageCarousel";
 @import "./partials/layout";
 @import "./partials/cards";
+@import "./partials/contactInformation";
+@import "./partials/homeAccordion";
+@import "./partials/homeTabs";

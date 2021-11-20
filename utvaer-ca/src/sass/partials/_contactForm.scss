@@ -1,3 +1,10 @@
+.contact-form {
+  background-color: $color-navbg;
+  padding: 1em;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
 .btn-submit {
   background-color: $color-secondary;
   color: #fff;

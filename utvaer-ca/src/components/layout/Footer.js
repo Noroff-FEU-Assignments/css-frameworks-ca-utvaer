@@ -5,9 +5,9 @@ import Col from "react-bootstrap/Col";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer>
       <Container>
-        <Row>
+        <Row className="footer">
           <Col sm={12} md={4} className="footer__item">
             <div className="icon">
               <i class="fab fa-vimeo-v"></i>

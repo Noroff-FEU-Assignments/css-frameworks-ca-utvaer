@@ -8,7 +8,7 @@ function ContactForm() {
   return (
     <>
       <h1>Submit your details</h1>
-      <Form>
+      <Form className="contact-form">
         <Form.Group className="mb-3">
           <Form.Label>Name</Form.Label>
           <Form.Control type="name" />

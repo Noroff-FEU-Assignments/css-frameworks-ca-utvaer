@@ -5,30 +5,30 @@ import Col from "react-bootstrap/Col";
 
 function ContactInformation() {
   return (
-    <Container>
-      <Row>
-        <Col>
+    <Container className="contact-info">
+      <Row className="contact-info__item">
+        <Col md={1}>
           <i class="fas fa-envelope"></i>
         </Col>
-        <Col>
+        <Col md={1}>
           <p>hello@yay.com</p>
         </Col>
       </Row>
 
-      <Row>
-        <Col>
+      <Row className="contact-info__item">
+        <Col md={1}>
           <i class="fas fa-phone"></i>
         </Col>
-        <Col>
+        <Col md={6}>
           <p>123 456 7890</p>
         </Col>
       </Row>
 
-      <Row>
-        <Col>
+      <Row className="contact-info__item">
+        <Col md={1}>
           <i class="fas fa-map-marker-alt"></i>
         </Col>
-        <Col>
+        <Col md={6}>
           <address>
             123 Some Street
             <br />
