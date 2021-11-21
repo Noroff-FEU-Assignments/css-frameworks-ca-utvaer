@@ -1,6 +1,10 @@
 .navbar-nav .navbar-nav__item {
   margin: 0.5em;
   padding: 0.5em 1em;
+  &:hover {
+    background-color: $color-primary;
+    border-radius: 3px;
+  }
 }
 .navbar-nav .active {
   background-color: #fff;
